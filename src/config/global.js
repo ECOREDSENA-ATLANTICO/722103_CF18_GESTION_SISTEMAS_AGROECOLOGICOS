@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Manejo y supervisión de prácticas culturales del agroecosistema',
+    descripcionCurso:
+      'En este componente formativo se abordan temas que le permitirán implementar prácticas de manejo cultural del agroecosistema, teniendo en cuenta tipos de población, plagas y enfermedades, para así establecer protocolo y procedimiento e manejo, según la normatividad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,12 +33,17 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Monitoreo de las poblaciones asociadas al cultivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Manejo de Plagas y Enfermedades (MIP)',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Normatividad',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +52,39 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Supervisión de las prácticas de manejo cultural',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Registro de la información y trazabilidad de las prácticas de manejo cultural ',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Protocolos, procedimientos y normatividad',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alternativas de manejo cultural',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Buenas prácticas de convivencia',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Acciones de mejora',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +134,66 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Monitoreo de las poblaciones asociadas al cultivo',
+      referencia:
+        'Altieri, M. Á. & Nicholls, C. I. (2007). Biodiversidad y manejo de plagas en agroecosistemas. Icaria editorial. S.A, Barcelona.',
+      tipo: 'Capítulo de libro',
+      link:
+        'https://books.google.com.co/books?id=nRjLGJhQ7ywC&printsec=frontcover&dq=manejo+cultural+del+agroecosistema&hl=es&sa=X&ved=2ahUKEwjsyLi0s6n4AhW7mYQIHcQIDq4Q6AF6BAgIEAI#v=onepage&q=manejo%20cultural%20del%20agroecosistema&f=false',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '3. Alternativas de manejo cultural',
+      referencia:
+        'Ministerio de Agricultura y desarrollo rural (2009). Mis buenas prácticas agrícolas. “Guía para agroempresarios”.',
+      tipo: 'Guía',
+      link:
+        'https://www.ica.gov.co/areas/agricola/servicios/inocuidad-agricola/capacitacion/cartillabpa.aspx',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agroecosistema',
+      significado:
+        'cualquier tipo de ecosistema modificado y gestionado por los seres humanos con el objetivo de obtener alimentos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Enfermedad',
+      significado:
+        'una enfermedad en una planta producida por un agente patógeno (hongo, bacteria o virus) da lugar a una alteración que afecta a la síntesis y la utilización de los nutrientes, repercutiendo así en un cambio de apariencia de ésta y/o una menor producción y de menor calidad que si la planta estuviera sana.',
+    },
+    {
+      termino: 'Insectos - Plaga',
+      significado:
+        'organismos que pueden causar daño al hombre o a sus bienes (por ejemplo, cosechas).',
+    },
+    {
+      termino: 'Manejo Integrado de Plagas (MIP)',
+      significado:
+        'consiste en el empleo de todos los géneros de control susceptibles de aplicar en determinado cultivo, (cultural, biológico, químico, entre otros).',
+    },
+    {
+      termino: 'Manejo cultural',
+      significado:
+        'estrategia mediante la cual se crea condiciones poco favorables para las plagas, de tal modo que se disminuya la reproducción y diseminación, por lo cual se buque que el crecimiento y desarrollo vigoroso del cultivo.',
+    },
+    {
+      termino: 'Población',
+      significado:
+        'conjunto de seres vivos de la misma especie que habitan en un lugar determinado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Brechelt, A. (2004). El Manejo Ecológico de Plagas y Enfermedades. ',
+      link:
+        'https://webzoom.freewebs.com/rentawebscr/alonsocr2013/descargas/Manejo_Ecologico_de_Plagas_A.Bretchel.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de desarrollo agropecuario. Santiago Republica de panamá. (2010). Guía del Manejo Integrado de Plagas (MIP) para técnicos y productores.',
+      link:
+        'https://www.jica.go.jp/project/spanish/panama/2515031E0/data/pdf/1-57_01.pdf',
     },
   ],
   creditos: [
@@ -142,8 +208,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +218,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +228,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +253,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
