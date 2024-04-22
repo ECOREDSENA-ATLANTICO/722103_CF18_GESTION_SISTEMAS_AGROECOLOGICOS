@@ -239,6 +239,16 @@
     @media (max-width: $bp-max-xs)
       top: 98%
       left: 20%
+  &_5
+    position: absolute
+    width: 164px;
+    top: 35%;
+    left: 65%;
+    @media (max-width: $bp-max-md)
+      top: 36%
+      left: 64%
+ 
+   
   
 
 //PADDING PERSONALIZADO//
@@ -285,3 +295,15 @@
   background-color: #FFE9E1
 .cajon.color-secundario
   background-color: #EFF5D6
+.pasos-b__header__item--active .pasos-b__header__item__dot 
+  background-color: $color-primario
+  border: 3px solid $color-primario
+.pasos-b__header__item--before .pasos-b__header__item__dot
+    border-color: $color-secundario
+    background-color: $color-secundario
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: $color-secundario
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: $color-secundario
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before
+  background-color: $color-secundario

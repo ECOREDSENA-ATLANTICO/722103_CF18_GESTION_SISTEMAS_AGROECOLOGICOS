@@ -64,7 +64,7 @@ export default {
           {
             numero: '2.2',
             titulo: 'Protocolos, procedimientos y normatividad',
-            hash: 't_2_1',
+            hash: 't_2_2',
           },
         ],
       },
@@ -82,7 +82,7 @@ export default {
           {
             numero: '3.2',
             titulo: 'Acciones de mejora',
-            hash: 't_3_1',
+            hash: 't_3_2',
           },
         ],
       },
