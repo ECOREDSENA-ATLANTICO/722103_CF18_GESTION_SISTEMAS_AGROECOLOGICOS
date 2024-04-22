@@ -44,7 +44,7 @@ export default {
           {
             numero: '1.2',
             titulo: 'Normatividad',
-            hash: 't_1_1',
+            hash: 't_1_2',
           },
         ],
       },

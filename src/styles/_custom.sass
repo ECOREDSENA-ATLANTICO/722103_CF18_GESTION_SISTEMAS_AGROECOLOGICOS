@@ -10,10 +10,253 @@
     top: 38%
     right: 20%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background-image: url(../assets/curso/temas/banner_interno.svg) !important
+
+//COLORES DE CONTENIDOS//
+.cfc
+  background-color: #EFF5D6
+  &_border
+    border-radius: 20px 20px 20px 0px
+    background-color: #EFF5D6
+  &_1
+    background-color: #F6F6F6
+  &_2
+    background-color: #CEE284
+    &_bri
+      border-radius: 0 0 10px 10px
+      background-color: #CEE284
+      text-align: center
+
+//BACKGROUND//
+.bgr
+  background-image: url(../assets/curso/temas/tema1/2.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  justify-content: end
+  border-radius: 10px
+  @media (max-width: $bp-min-md)
+      background-image: none
+  &_1
+    background-color: #FFD3C3
+  &_2
+    background-color: $color-primario
+    color: white
+    display: inline-block
+  &_3
+    background-color: #EFF5D6
+  &_4
+    background-color: #ffff
+  &_5
+    background-color: #FFE9E1
+  &_6
+    background-color: $color-acento-contenido
+    display: inline-block
+    border-radius: 10px
+    margin-top: -50px
+    @media (max-width: $bp-min-md)
+      margin-top: -8px
+      
+  &_7
+    background-color: #F6F6F6
+  &_8
+    color: $color-secundario !important
+  &_9
+    background-color: #E8E8E8
+
+.bg_grad-01
+  position: relative
+  p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 18%
+    left: 0
+    width: 100%
+    height: 65%
+    background-color: #FFE9E1
+    @media (max-width: $bp-max-xs)
+      top: -2%
+      height: 79%
+    @media (max-width: 426px)
+      height: 87%
+.bg_grad-02
+  position: relative
+  p, figure, h4
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 18%
+    left: 17%;
+    width: 75%;
+    height: 65%;
+    background-color: #EFF5D6;
+    border-radius: 40px
+    @media (max-width: $bp-max-sm)
+      top: -8%;
+      height: 150px;
+      width: 88%;
+      left: 11%
+    @media (max-width: $bp-max-xs)
+      top: 30%
+      height: 75%
+      width: 100%
+      left: 0
+
+.bg_no_01
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85%
+    left: 80%
+    width: 100%
+    height: 100%
+    background-image: url(../assets/curso/temas/tema1/23.svg)
+    background-repeat: no-repeat
+    
+.bg_no_02
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85%
+    left: 80%
+    width: 100%
+    height: 100%
+    background-image: url(../assets/curso/temas/tema1/24.svg)
+    background-repeat: no-repeat
+.bg_no_03
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 82%
+    left: 80%
+    width: 100%
+    height: 100%
+    background-image: url(../assets/curso/temas/tema1/25.svg)
+    background-repeat: no-repeat
+.bg_no_04
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85%
+    left: 80%
+    width: 100%
+    height: 100%
+    background-image: url(../assets/curso/temas/tema1/26.svg)
+    background-repeat: no-repeat
+.bg_no_05
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 70%
+    left: 85%
+    width: 100%
+    height: 100%
+    background-image: url(../assets/curso/temas/tema1/27.svg)
+    background-repeat: no-repeat
+
+//POSICION EN PANTALLA// 
+.pst
+  display: flex
+  flex-flow: nowrap
+  column-gap: 1rem
+  @media (max-width: $bp-min-sm)
+    flex-flow: wrap
+    row-gap: 1rem
+  &_1
+    width: 27%
+  &_2
+    position: absolute
+    width: 40px
+    top: 10%
+    left: 70%
+    @media (max-width: $bp-max-md)
+      top: 0
+      left: 80%
+    @media (max-width: $bp-max-xs)
+      top: 65%
+      left: 80%
+  &_3
+    position: absolute
+    width: 40px
+    top: 74%
+    left: 80%
+    @media (max-width: $bp-max-md)
+      top: 85%
+      left: 20%
+    @media (max-width: $bp-max-xs)
+      top: 98%
+      left: 20%
+  
+
+//PADDING PERSONALIZADO//
+.pp
+  padding: 1.9rem
+
+//BORDER RADIUS PERSONALIZADO//
+.brp
+  border-top-left-radius: 35%
+  border-top-right-radius: 35%
+
+//CLASES REEMPLAZADAS//   
+.tarjeta-avatar-b__img
+  min-width: 14%
+
+.slyder-a__bullets__item
+  background-color: #ADCE32
+  opacity: 0.5
+  border: none
+.slyder-a__bullets__item--active
+  opacity: 1
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #FFD3C3
+.tarjeta.color-primario *
+  color: $color-sistema-texto
+.img-infografica.color-primario .img-infografica__item__dot:before, .img-infografica.color-primario .img-infografica__item__dot:after
+  background-color: $color-acento-botones
+
+.img-infografica.color-primario .img-infografica__item__numero
+  color: $color-sistema-texto
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected, .tabs-a.color-acento-botones .tabs-a__tab__selected:before
+  background-color: #FFA686 !important
+ 
+.tabs-a__tab
+  background-color: #E8E8E8
+.tarjeta.color-acento-botones--borde
+  border: none
+  background-color: #FFE9E1
+.tabla-a thead
+  background-color: $color-acento-contenido
+  border: none
