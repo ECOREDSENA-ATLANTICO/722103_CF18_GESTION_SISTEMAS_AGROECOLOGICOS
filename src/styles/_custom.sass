@@ -63,13 +63,23 @@
     margin-top: -50px
     @media (max-width: $bp-min-md)
       margin-top: -8px
-      
   &_7
     background-color: #F6F6F6
   &_8
     color: $color-secundario !important
   &_9
     background-color: #E8E8E8
+  &_10
+    background-color: $color-secundario
+    display: inline-block
+    border-radius: 10px
+    margin-top: -50px
+    @media (max-width: $bp-min-md)
+      margin-top: -8px
+  &_11
+    background-color: $color-secundario
+  &_12
+    background-color: $color-primario
 
 .bg_grad-01
   position: relative
@@ -218,6 +228,17 @@
     @media (max-width: $bp-max-xs)
       top: 98%
       left: 20%
+  &_4
+    position: absolute
+    width: 447px
+    top: -21px
+    left: 153px
+    @media (max-width: $bp-max-md)
+      top: 85%
+      left: 20%
+    @media (max-width: $bp-max-xs)
+      top: 98%
+      left: 20%
   
 
 //PADDING PERSONALIZADO//
@@ -260,3 +281,7 @@
 .tabla-a thead
   background-color: $color-acento-contenido
   border: none
+.cajon.color-acento-contenido
+  background-color: #FFE9E1
+.cajon.color-secundario
+  background-color: #EFF5D6
