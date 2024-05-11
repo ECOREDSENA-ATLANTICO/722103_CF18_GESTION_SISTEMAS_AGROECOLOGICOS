@@ -8,7 +8,7 @@
       h1 Supervisión de las prácticas de manejo cultural
     
     figure
-      img(src='@/assets/curso/temas/tema2/1.jpg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/tema2/1.jpg', alt='La imagen muestra la supervisión de las practicas de manejo cultural..')
     div.justify-content-center.d-flex.mb-5
       p.bgr_10.p-4 El proceso de supervisión de las buenas prácticas de manejo cultural del agroecosistema está basado en:
     
@@ -41,12 +41,12 @@
         p Las prácticas culturales, son técnicas de manejo agrícola que aportan desde su desarrollo a mejorar los objetivos de producción del cultivo, dentro de estas, se establecen estrategias de manejo integrado de plagas, lo que permite asegurar un desarrollo y crecimiento adecuado del cultivo, reducción de costos y productos de calidad.
 
         p Cada cultivo requiere de unas prácticas culturales que van desde el saneamiento, manejo del cultivo hasta técnicas de exclusión, sin dejar de lado las actividades de monitoreo pues son las que permiten vigilar la evolución del cultivo y de los problemas que se presenten durante el desarrollo del mismo, de esto depende el éxito y logro de los objetivos esperando en cuanto a productividad.
-      .col-lg-6.align-content-center 
+      .col-lg-6.align-content-center(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4
           .row
             .col-lg-6
               p.mb-0 El personal a cargo del cultivo debe conocer claramente las labores a desarrollar y su importancia dentro del proceso, con el fin de garantizar un buen manejo agronómico del cultivo, con el fin de implementar las técnicas y estrategias adecuadas según la situación presentada.
-              img(src='@/assets/curso/temas/tema2/2.png', alt='Texto que describa la imagen').pst_4.d-none.d-lg-flex
+              img(src='@/assets/curso/temas/tema2/2.png', alt='Imagen de apoyo').pst_4.d-none.d-lg-flex
 
     separador
 
@@ -55,9 +55,9 @@
     
 
     .row.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema2/3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/3.png', alt='Imagen de apoyo')
       .col-lg-6
         p Se entiende por trazabilidad aquellos procedimientos que permitan conocer todos los detalles de un producto, lo que implica que la trazabilidad establece insumos utilizados en un proceso productivo como la obtención la obtención de la cosecha de un cultivo.
         p.mb-5 La trazabilidad permite establecer rápidamente lotes de alguna cosecha que presente problemas de contaminación y de este modo implementar medidas necesarias para evitar mayores impactos.
@@ -72,7 +72,7 @@
             p Procedimiento de sanidad y calidad del material de propagación, se genera certificado del material de siembra, registro del control de calidad en viveros y registro de siembra.
           .col-lg-8
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/4.png', alt='Imagen de apoyo')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis del agua y suelo")
         .row
           .col-lg-4.align-content-center
@@ -80,7 +80,7 @@
             p Análisis físico, químico y microbiológico.
           .col-lg-8
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/5.png', alt='Imagen de apoyo')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Registro de mantenimiento y calibraciones equipos")
         .row
           .col-lg-4.align-content-center
@@ -88,7 +88,7 @@
             p Dicho registro se realiza a través de labranza, abonamiento, manejo de plagas y enfermedades.
           .col-lg-8
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/6.png', alt='Imagen de apoyo')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Registro de aplicación de fertilizantes")
         .row
           .col-lg-4.align-content-center
@@ -96,7 +96,7 @@
             p Dicho registro se configura a partir del plan de fertilización, kardex de fertilizantes y fichas técnicas de los fertilizantes y abonos.
           .col-lg-8
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/7.png', alt='Imagen de apoyo')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Registro sobre la preparación de abonos orgánicos")
         .row
           .col-lg-4.align-content-center
@@ -104,7 +104,7 @@
             p Dicho registro se desarrolla en caso de prepararse en la unidad productiva, por medio de la evaluación de riesgos y registros.
           .col-lg-8
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/8.png', alt='Imagen de apoyo')
       .tarjeta.color-acento-botones--borde.p-4(titulo="Plan de Manejo Integral de Plagas (MIP)")
         .row
           .col-lg-4.align-content-center
@@ -112,7 +112,7 @@
             p Para que el plan se ejecute a través del listado de plaguicidas permitidos y prohibidos en Colombia, hoja de seguridad de cada plaguicida y límite máximo de residuos según el Codex, además del procedimiento de manejo de plagas, kardex actualizado y registro de aplicación de plaguicidas.
           .col-lg-8
             figure.mb-3
-              img(src='@/assets/curso/temas/tema2/9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/9.png', alt='Imagen de apoyo')
       
     p El registro de la información permite evaluar y verificar las actividades realizadas, con el fin de identificar los errores y de este modo corregirlos e implementar estrategias de mejora y en caso contrario, poder establecer las circunstancias de éxito y así mismo seguir implementado dichas estrategias, con el fin de lograr los resultados esperados en el agroecosistema.
 
@@ -124,15 +124,15 @@
     .row.mb-5
       .col-lg-5.order-2.order-lg-1
         p Dentro de las prácticas de manejo cultural se deben establecer los protocolos y procedimientos adecuados que contemplen la normatividad vigente que permita el adecuado desarrollo del proceso productivo. Por ello, es relevante reconocer lo que es el protocolo y lo que este permite: 
-      .col-lg-7.order-1.order-lg-2.mb-3
+      .col-lg-7.order-1.order-lg-2.mb-3(data-aos="fade-left")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema2/10.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/10.svg', alt='Imagen de apoyo')
     
     .row.mb-5.justify-content-center
       .col-md-8.col-lg-12
         figure
-          img(src='@/assets/curso/temas/tema2/11.svg', alt='Texto que describa la imagen').d-none.d-lg-flex
-          img(src='@/assets/curso/temas/tema2/12.svg', alt='Texto que describa la imagen').d-flex.d-lg-none
+          img(src='@/assets/curso/temas/tema2/11.svg', alt='La imagen muestra los protocolos, procedimientos y normatividad para establecer el diseño, el mecanismo y las medidas correctivas en el proceso productivo.').d-none.d-lg-flex
+          img(src='@/assets/curso/temas/tema2/12.svg', alt='La imagen muestra los protocolos, procedimientos y normatividad para establecer el diseño, el mecanismo y las medidas correctivas en el proceso productivo.').d-flex.d-lg-none
 
     p.p-4.bgr_5 No se pude llevar establecer un cultivo sin tener un diseño establecido, ya que en este se involucran variables indispensables para su desarrollo, por  lo cual contar con el paso a paso y procedimiento adecuado permite garantizar la obtención de los resultados esperados.
        

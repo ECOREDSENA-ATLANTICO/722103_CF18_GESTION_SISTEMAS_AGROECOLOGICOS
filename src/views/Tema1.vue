@@ -9,10 +9,10 @@
     
     p.mb-5 El monitoreo, permite instaurar cuando aparecen los problemas fitosanitarios y cómo evolucionan, convirtiéndose en una herramienta importante para el establecimiento de estrategias de manejo del cultivo, de tal modo que se repercuta poco en la calidad y rendimiento de este, además de generar un menor impacto al ambiente
     
-    .row.bgr.mb-5
+    .row.bgr.mb-5(data-aos="zoom-in")
       .col-lg-3.m-lg-5
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/1.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/1.svg' alt='Imagen de apoyo')
           .tarjeta.cfc_1
             .p-4
               p.m-0 Un adecuado monitoreo conlleva al verdadero estado del cultivo a nivel de infección y/o infestación, estableciendo la densidad y distribución del patógeno; de ahí la importancia de indicar unas actividades de control para el manejo de plagas y enfermedades que permita vigilar la evolución y evitar repercusiones considerables en el cultivo.
@@ -26,12 +26,12 @@
           h5 Figura 1.
           span Estructura de monitoreo
 
-        .tarjeta.figure.mb-5
-          img(src='@/assets/curso/temas/tema1/3.svg', alt='Texto que describa la imagen')
+        .tarjeta.figure.mb-5(data-aos="fade-left")
+          img(src='@/assets/curso/temas/tema1/3.svg', alt='La imagen muestra la estructura del monitoreo, dependiendo de su tiempo, ciclo de cultivo, periodicidad, y ciclo biológico.')
     
     .row.mb-3 
       .col-auto 
-        img(src='@/assets/curso/temas/tema1/8.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema1/8.svg', alt='Imagen de apoyo')
       .col.align-content-end.mb-3
         h3.mb-0 Identificación de las poblaciones 
 
@@ -43,21 +43,21 @@
     p En cambio, frente a la influencia negativa, las plantas se pueden ver gravemente afectadas por organismos como:
 
     .row.mb-5
-      .col-lg-4.mb-3
-        img(src='@/assets/curso/temas/tema1/4.jpg', alt='Texto que describa la imagen')
+      .col-lg-4.mb-3(data-aos="fade-down")
+        img(src='@/assets/curso/temas/tema1/4.jpg', alt='La imagen muestra la influencia negativa de los insectos en las plantas.')
         p.mb-0.cfc_2_bri.p-4 <b>Insectos</b> 
-      .col-lg-4.mb-3
-        img(src='@/assets/curso/temas/tema1/5.jpg', alt='Texto que describa la imagen')
+      .col-lg-4.mb-3(data-aos="fade-up")
+        img(src='@/assets/curso/temas/tema1/5.jpg', alt='La imagen muestra la influencia negativa de los hongos, bacteria en las plantas.')
         p.mb-0.cfc_2_bri.p-4 <b>Fitopatógenos</b> (hongos, bacterias y nematodos) 
-      .col-lg-4.mb-3
-        img(src='@/assets/curso/temas/tema1/6.jpg', alt='Texto que describa la imagen')
+      .col-lg-4.mb-3(data-aos="fade-down")
+        img(src='@/assets/curso/temas/tema1/6.jpg', alt='La imagen muestra la influencia negativa en la producción agrícola de los arvenses en las plantas.')
         p.mb-0.cfc_2_bri.p-4 <b>Arvenses</b> (plantas no deseadas). 
     
     .row.justify-content-center
       .col-lg-8
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/7.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/7.svg' alt='Imagen de apoyo')
           .tarjeta.bgr_1.align-content-center
             .p-2
               p.mb-0 Por lo cual es importante realizar monitoreos a través de muestreos, que permitan definir la presencia de estos organismos con el fin de establecer las medidas correctivas pertinentes.
@@ -67,8 +67,8 @@
     .row.mb-5
       .col-lg-8.mb-3
         p Son los encargados de trasmitir las enfermedades a las plantas, dentro de ellos encontramos los hongos, bacterias, virus, nematodos, entre otros; los cuales son trasmitidos a través de vectores o insectos. Cuando el vector traspasa la superficie de la planta y accede a la savia, es ahí donde realiza la trasmisión del patógeno y en otras circunstancias el insecto segrega sustancias al interior de la planta, creando el ambiente propicio para el desarrollo del patógeno. Conozcan lo que representan: 
-      .col-lg-4
-        img(src='@/assets/curso/temas/tema1/9.svg' alt='AvatarTop')
+      .col-lg-4(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema1/9.svg' alt='Imagen de apoyo')
     
     .tarjeta.bgr_3.p-4.mb-5
       SlyderA(tipo="b")
@@ -78,7 +78,7 @@
             p Son organismo que requieren de  un huésped vivo para subsistir, como es el caso de la planta. Su estructura física consiste en la formación de una macha en la superficie de la planta u hojas, siendo fácilmente identificables. Existen diversos colores (blancos, negros y amarillos)  y se reproducen por esporas, lo cual lo hace fácilmente trasmisible de una planta a otra, por medio del viento.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema1/10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/10.png', alt='Imagen de apoyo')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0
@@ -86,14 +86,14 @@
             p Microorganismos unicelulares, los cuales se introducen en las plantas a través de laceraciones o aberturas en la superficie (ocasionadas por insectos al succionar savia). Requieren de un organismo huésped para sostenerse, cuando se activan ocasionan putrefacción en ciertas partes de la planta.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema1/11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/11.png', alt='Imagen de apoyo')
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-4.mb-4.mb-md-0
             h4 Virus
             p Tienen un tamaño reducido y son trasmitidos por insectos y requieren de un huésped para subsistir, generando graves daños en el cultivo.
           .col-md-8
             figure
-              img(src='@/assets/curso/temas/tema1/13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/13.png', alt='Imagen de apoyo')
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0
@@ -101,7 +101,7 @@
             p Tienen  gran tamaño, son parecidos a gusanos microscópicos y se ubican en la raíces. Los daños adversos que ocasionan están relacionadas con la desnutrición, crecimiento, desarrollo y productividad, ya que estos patógenos impiden que la planta adquiera los nutrientes y proteínas del suelo, mediante las raíces.
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/tema1/12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen de apoyo')
 
     h4.bgr_2.p-3.mb-5 Insectos beneficios
 
@@ -112,7 +112,7 @@
         p Utilizar insectos beneficios para el control de plagas, resulta muy útil, ya que además de generar ayuda económica (ahorro de plaguicidas e insecticidas), contribuye al cuidado del entorno y salud. Entre ellos se encuentran:
       .col-lg-6.mb-3.order-1.order-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/14.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/14.png', alt='Imagen de apoyo')
     
     .row.mb-5.justify-content-center
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
@@ -167,21 +167,21 @@
             p El termino plaga varia dependiendo del contexto de cada cultivo, condiciones climáticas y ubicación geográfica, pues una misma especie puede ser considera plaga en algún lugar pero en otro no.
           .col-lg-7
             figure
-              img(src='@/assets/curso/temas/tema1/20.svg', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/temas/tema1/20.svg', alt='Imagen de apoyo') 
       
     .row.justify-content-center
       .col-lg-8
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/21.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/21.svg' alt='Imagen de apoyo')
           .tarjeta.bgr_1.align-content-center
             .p-2
               p.mb-0 Teniendo en cuenta lo anterior, a continuación, se mencionan algunas especies y otros animales que son considerados plagas en cultivos tradicionales, debido a la generación de enfermedades al ingerir la savia o por ingerir sus hojas y frutos:
     
-    ImagenInfografica.color-primario.mb-5
+    ImagenInfografica.color-primario.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema1/22.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/22.png', alt='Imagen de apoyo')
 
       .tarjeta.bgr_4.bg_no_01.p-4(x="13%" y="35%" numero="1")
         p.mb-0 <b>Orugas de mariposa,</b> atacan las plantas desde la parte exterior, debido a que las polillas suelen poner huevos en la superficie de la planta, y cuando la larva nace comienza a alimentarse de la superficie de la planta, posteriormente cuando se desarrolló empieza a ingerir las hojas.
@@ -195,9 +195,9 @@
         p.mb-0 <b>Escarabajos,</b> existe gran variedad de ellos, los cuales se alimentan de la savia, hojas y tallos de la planta.
     
     .row.mb-5
-      .col-lg-5.align-content-end.order-2.order-lg-1
+      .col-lg-5.align-content-end.order-2.order-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/28.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/28.png', alt='Imagen de apoyo')
       .col-lg-7.order-1.order-lg-2.mb-3
         h4.bgr_2.p-3 Influencia de las arvenses en el desarrollo de los cultivos
         p.mb-0 Las arvenses son especies vegetales que llegan a invadir cultivos, por ende son consideradas malezas. Sin embargo, se debe monitorear los aspectos biológicos y ecológicos con el fin de ser consideradas como una problemática en el desarrollo de la producción, ambos aspectos logran diferencias por:
@@ -207,7 +207,7 @@
       span Aspectos ecológicos y aspectos biológicos
     
     figure.mb-3
-      img(src='@/assets/curso/temas/tema1/29.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/tema1/29.png', alt='La imagen muestra los aspectos ecológicos y aspectos biológicos de las  especies arvenses')
 
     div.p-4.bgr_5
       p.mb-0 Las especies arvenses compiten fuertemente con el cultivo por agua, luz, espacio y nutrientes, además de ser hospederas de plagas y enfermedades, presentando impacto negativo sobre el proceso productivo, lo que hace indispensable conocer la diversidad y su densidad poblacional dentro del sistema agrícola.
@@ -221,18 +221,18 @@
       .col-lg-6.mb-3
         p El Manejo Integrado de Plagas (MIP) es una estrategia que permite mantener el cultivo, de tal manera que el daño por enfermedades y plagas, se mantenga en niveles económicamente aceptable, además de reducir el riesgo a la salud y el beneficio del ambiente.
         p El MIP involucra varias medidas de control de enfermedades y plagas; sin embargo, la primera medida a implementar es la verificación de la sanidad del cultivo, pues es la que permite prevenir las enfermedades y plagas, por lo cual involucra preparación del cultivo, abonamiento, riego y drenaje, entre otros.
-      .col-lg-6.align-content-center
+      .col-lg-6.align-content-center(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema1/30.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/30.png', alt='Imagen de apoyo')
         
     .row.mb-5 
       .col-auto 
-        img(src='@/assets/curso/temas/tema1/8.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema1/8.svg', alt='Imagen de apoyo')
       .col.align-content-end.mb-3
         h3.mb-0 Monitoreo y control de plagas 
     
     figure
-      img(src='@/assets/curso/temas/tema1/31.jpg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/tema1/31.jpg', alt='La imagen muestra el monitoreo y control de plagas.')
     div.justify-content-center.d-flex.mb-5
       p.bgr_6.p-4 Existen muchos métodos para monitorear y controlar las plagas, entre los cuales encontramos:
 
@@ -267,9 +267,9 @@
             | Acudir al médico inmediatamente, si presenta síntomas de intoxicación.
       
     .row.mb-5
-      .col-lg-5.mb-3
+      .col-lg-5.mb-3(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/32.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/32.png', alt='Imagen de apoyo')
       .col-lg-7
         h4.bgr_2.p-3 b.	Control mecánico y eliminación manual 
         p Medida de control de plagas y enfermedades de fácil e inmediata efectividad, la cual es muy utilizada en la primera etapa de infestación, debido a que se percibe por observación y así mismo se puede eliminar. Una vez realizado el proceso de eliminación se debe realizar la disposición adecuada, ya sea por incineración o entierro, claro está fuera del cultivo.
@@ -281,14 +281,14 @@
       span Control mecánico y eliminación manual
     
     figure.mb-5
-      img.mb-3(src='@/assets/curso/temas/tema1/33.png', alt='Texto que describa la imagen')
+      img.mb-3(src='@/assets/curso/temas/tema1/33.png', alt='La imagen muestra el control mecánico y eliminación manual: Eliminar a mano la parte dañada por enfermedad. Eliminar a mano la parte infestada por pulgones. Eliminar a mano la oruga sobre la planta.')
       figcaption Nota. Guía de Manejo Integrado de Plagas (MIP) para técnicos y productores.
 
     .row.mb-5
       .col-lg-6.mb-3
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/34.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/34.svg' alt='Imagen de apoyo')
           .tarjeta.bgr_1.align-content-center
             .p-2
               p.mb-0 De igual manera, se describen los siguientes elementos: la temperatura, el agua, la barrera y la trampa:
@@ -298,30 +298,30 @@
               p.mb-0 La temperatura tiene varios efectos sobre la vida de los organismos, por eso se debe tener en cuenta la época de establecimiento del cultivo, con el fin de evitar la temperatura optima de las enfermedades.
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/36.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/36.png', alt='Imagen de apoyo')
           .row(titulo="Agua")
             .col-md-6.mb-4.mb-md-0.align-content-center
               p.mb-0 Este recurso hídrico es fundamental para el desarrollo del cultivo, por lo cual la cantidad inadecuada de agua puede generar debilidad del cultivo y aumentar la susceptibilidad a las enfermedades y en sentido contrario el exceso de agua puede generar daño en la raíz. Por ende, es importante diseñar un sistema adecuado de riego y drenaje dentro del cultivo, estableciendo las condiciones óptimas.
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/37.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/37.png', alt='Imagen de apoyo')
           .row(titulo="Barrera")
             .col-md-6.mb-4.mb-md-0.align-content-center
               p.mb-0 Se pueden diseñar distintos tipos de barreras (madera, malla, plástico y vivas), con el fin de controlar las enfermedades y plagas, impidiendo así su dispersión.
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/38.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/38.png', alt='Imagen de apoyo')
           .row(titulo="Trampa")
             .col-md-6.mb-4.mb-md-0.align-content-center
               p.mb-0 Existen diferentes tipos de trampas, las cuales son implementadas para monitorear la aparición de insectos plagas y en algunos casos medida de control ya que pueden atrapar insectos plagas y evitar la trasmisión de enfermedades.
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/39.png', alt='Texto que describa la imagen')        
+                img(src='@/assets/curso/temas/tema1/39.png', alt='Imagen de apoyo')        
       .col-lg-6.align-content-center
         figure.mb-5
-          img.mb-3(src='@/assets/curso/temas/tema1/35.png', alt='Texto que describa la imagen')
+          img.mb-3(src='@/assets/curso/temas/tema1/35.png', alt='Imagen de apoyo')
 
     .row.mb-5
       .col-lg-6.mb-3
@@ -329,33 +329,33 @@
         p La vegetación natural se compone de una gran variedad de organismos, por lo cual la propagación de cierta especie, se puede controlar automáticamente implementado medidas que equilibren el ecosistema, teniendo en cuenta: 
       .col-lg-6.align-content-center
         figure.mb-5
-          img.mb-3(src='@/assets/curso/temas/tema1/39.svg', alt='Texto que describa la imagen')
+          img.mb-3(src='@/assets/curso/temas/tema1/39.svg', alt='Imagen de apoyo')
     
     .row.mb-5
-      .col-md-6.col-lg-3.mb-5.mb-lg-0
+      .col-md-6.col-lg-3.mb-5.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/40.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/40.svg' alt='Imagen de apoyo')
           .tarjeta.cfc_2.brp
             .p-4
               h2.text-center Predador
               p Se considera predador al animal que se come a otro, entre ellos encontramos: arañas, avispas, hormigas, mariquitas, entre otros; por ende, son utilizados como herramientas de control biológico.
-      .col-md-6.col-lg-3.mb-5.mb-lg-0
+      .col-md-6.col-lg-3.mb-5.mb-lg-0(data-aos="flip-down")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/41.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/41.svg' alt='Imagen de apoyo')
           .tarjeta.cfc_2.brp
             .p-4
               h2.text-center Parásitos
               p Se considera parasito al organismo que se hospeda dentro de otro cuerpo (endoparásito) o en la superficie (ectoparásito) de otro organismo y comen dentro del hospedero.
-      .col-md-6.col-lg-3.mb-5.mb-lg-0
+      .col-md-6.col-lg-3.mb-5.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/42.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/42.svg' alt='Imagen de apoyo')
           .tarjeta.cfc_2.brp
             .p-4
               h2.text-center Entomopatogeno
               p Microbios que causan enfermedades a los insectos, por ejemplo, hongos, bacterias, virus.
-      .col-md-6.col-lg-3.mb-5.mb-lg-0
+      .col-md-6.col-lg-3.mb-5.mb-lg-0(data-aos="flip-down")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/43.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema1/43.svg' alt='Imagen de apoyo')
           .tarjeta.cfc_2.brp
             .p-4
               h2.text-center Competidor
@@ -381,7 +381,7 @@
             p La eliminación de malezas puede destruir el hábitat y fuente infecciosa de virus. La fumigación con herbicidas no es la única manera de eliminar malezas, también se puede hacer limpieza manual. El hacer esta eliminación permite realizar arreglo del cultivo y el control de enfermedades y plagas.
       .col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema1/44.png', alt='Texto que describa la imagen')  
+          img(src='@/assets/curso/temas/tema1/44.png', alt='Imagen de apoyo')  
  
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Tabla 1.
@@ -398,31 +398,31 @@
         tbody
           tr.bgr_7
             td.p-0 
-              img(src='@/assets/curso/temas/tema1/45.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/45.jpg', alt='Imagen de apoyo')
             td.text-center #[strong Orégano] 
             td.text-center Calabaza, pepino, melón
             td.text-center Se lleva bien con los cultivos de enredaderas.
           tr.bgr_9
             td.p-0 
-              img(src='@/assets/curso/temas/tema1/46.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/46.jpg', alt='Imagen de apoyo')
             td.text-center #[strong Manzanilla] 
             td.text-center Cebolla, repollo, brócoli
             td.text-center Activar el crecimiento de los cultivos, además sirve como hospedero de insectos enemigos naturales
           tr.bgr_7
             td.p-0 
-              img(src='@/assets/curso/temas/tema1/47.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/47.jpg', alt='Imagen de apoyo')
             td.text-center #[strong Ajo] 
             td.text-center Tomate y frutales
             td.text-center Mata los patógenos y aleja los insectos con su olor.
           tr.bgr_9
             td.p-0 
-              img(src='@/assets/curso/temas/tema1/48.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/48.jpg', alt='Imagen de apoyo')
             td.text-center #[strong Cebolla] 
             td.text-center Tomate y lechuga
             td.text-center Controla patógenos con organismos simbióticos
           tr.bgr_7
             td.p-0 
-              img(src='@/assets/curso/temas/tema1/49.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/49.jpg', alt='Imagen de apoyo')
             td.text-center #[strong Menta] 
             td.text-center Repollo y tomate
             td.text-center Aleja insectos y nematodos con su olor.
@@ -436,16 +436,16 @@
  
       .col-lg-5.align-content-center
         figure.mb-5
-          img.mb-3(src='@/assets/curso/temas/tema1/50.png', alt='Texto que describa la imagen')
+          img.mb-3(src='@/assets/curso/temas/tema1/50.png', alt='Imagen de apoyo')
 
     div.mb-5
       h4.bgr_2.p-3 f.	Plaguicidas naturales
       p Entre los plaguicidas naturales se encuentran: 
   
-    ImagenInfografica.color-primario.mb-5
+    ImagenInfografica.color-primario.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema1/51.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/51.png', alt='Imagen de apoyo')
 
       .tarjeta.bgr_4.p-4(x="30%" y="23%" numero="+")
         p.mb-0 <b>Licor:</b> El alcohol sirve como desinfectante, debido a que puede inhibir el crecimiento de hongos y bacterias.
@@ -467,7 +467,7 @@
               p.mb-0 La mayoría de las orugas que comen hojas de cultivos son larvas de mariposas, las mariposas nocturnas hembra producen una sustancia que atrae a los machos. Por ende, al utilizar una feromona sintética los machos son atraídos y se pierde la oportunidad de copula con la hembra y así se disminuye la población de mariposas nocturna y a su vez las larvas dañinas para el cultivo.
             .col-lg-6.align-content-center
               figure
-                img(src='@/assets/curso/temas/tema1/52.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/52.png', alt='Imagen de apoyo')
       .col-md-6.bgr_5.p-5
           .row
             .col-lg-6 
@@ -475,7 +475,7 @@
               p.mb-0 Las vacunas se preparan con la mutación de un virus que no tenga efecto patógeno y se inocula para que tenga anticuerpos al virus patógeno, mientras que los antibióticos son estreptomicinas o tetramicinas; no obstante esta medida se encuentra en análisis y por costos, se considera una alternativa a largo plazo.
             .col-lg-6.align-content-center
               figure
-                img(src='@/assets/curso/temas/tema1/53.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/53.png', alt='Imagen de apoyo')
 
     separador 
 
@@ -513,14 +513,14 @@
             td.p-4 Establece el listado contiene las plagas actualmente reglamentadas en Colombia, las cuales se han definido siguiendo los lineamientos establecidos por la Convención Internacional de Protección Fitosanitaria (CIPF). Contiene las Plagas Cuarentenarias (PC) y las Plagas No Cuarentenarias Reglamentadas (PNCR) que requieren medidas fitosanitarias para la importación de productos agrícolas, para evitar la introducción de las PC y limitar las repercusiones económicas en el caso de las PNCR.
     
     .row.justify-content-center.bg_grad-02.position-relative.mb-5
-      .col-md-3.col-lg-4.mb-3
+      .col-md-3.col-lg-4.mb-3(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/54.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/54.svg', alt='Imagen de apoyo')
       .col-md-8.col-lg-6.align-content-center
         h4 Recuerde…
         p.mb-0 Lo mencionado en dicha normatividad son los aspectos más destacados, si desea entrar en el detalle de cada una o consultarla de manera completa, a través de  la web  puede hacerlo.
-        img(src='@/assets/curso/temas/tema1/55.svg', alt='Texto que describa la imagen').pst_2
-        img(src='@/assets/curso/temas/tema1/56.svg', alt='Texto que describa la imagen').pst_3
+        img(src='@/assets/curso/temas/tema1/55.svg', alt='Imagen de apoyo').pst_2
+        img(src='@/assets/curso/temas/tema1/56.svg', alt='Imagen de apoyo').pst_3
 
 </template>
 

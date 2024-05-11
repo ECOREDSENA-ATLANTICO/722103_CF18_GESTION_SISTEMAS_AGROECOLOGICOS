@@ -14,7 +14,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La imagen muestra la sintesis del manejocultural del agroecosistemas, teniendo en cuenta el monitoreo de las poblaciones asociadas al cultivo, la supervisión de las practicas de manejo cultural y las alternativas de manejo cultural.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
