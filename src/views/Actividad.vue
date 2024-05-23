@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Imagen de apoyo")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] 
+          h2 Manejo y supervisión de prácticas culturales del agroecosistema
+        p.mb-4 #[b Reconocer el manejo adecuado de los procedimientos en el uso y supervisión de prácticas culturales del agroecosistema para los procedimientos técnicos y buenas prácticas agrícolas.] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Arrastar y soltar coincidencias
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
