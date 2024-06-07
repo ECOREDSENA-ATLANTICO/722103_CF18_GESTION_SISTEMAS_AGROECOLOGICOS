@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Manejo y supervisión de prácticas culturales del agroecosistema',
     descripcionCurso:
-      'En este componente formativo se abordan temas que le permitirán implementar prácticas de manejo cultural del agroecosistema, teniendo en cuenta tipos de población, plagas y enfermedades, para así establecer protocolo y procedimiento e manejo, según la normatividad.',
+      'En este componente formativo se abordan temas que le permitirán implementar prácticas de manejo cultural del agroecosistema, teniendo en cuenta tipos de población, plagas y enfermedades, para así establecer protocolo y procedimiento en el manejo, según la normatividad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

@@ -22,7 +22,7 @@
         .cfc_border.pp.mb-5
           p.mb-0 Otro factor importante para presentar, es el umbral de plaga, el cual indica el período oportuno para implementar una acción preventiva, por lo que se constituye la densidad a la que se deben implementar las medidas de control, disminuyendo y hasta evitando el daño económico. Por lo cual la densidad de población de una plaga o enfermedad que cause disminución considerable del valor del cultivo, se conoce como daño económico.
       .col-lg-8
-        .titulo-sexto.color-acento-contenido.mb-3
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
           h5 Figura 1.
           span Estructura de monitoreo
 
@@ -35,7 +35,7 @@
       .col.align-content-end.mb-3
         h3.mb-0 Identificación de las poblaciones 
 
-    p Para reconocer las poblaciones se hace necesario identificar las propiedas del suelo, una de ellas es el sustrato donde las plantas se desarrollan y representan el sistema radicular para absorber los minerales a través del agua (sabia bruta), además de brindar soporte a la planta, de esta manera podría ser un sustrato inorgánico, en él se desarrollan procesos biológicos, los cuales modifican sus características físico - químicas. 
+    p Para reconocer las poblaciones se hace necesario identificar las propiedades del suelo, una de ellas es el sustrato donde las plantas se desarrollan y representan el sistema radicular para absorber los minerales a través del agua (sabia bruta), además de brindar soporte a la planta, de esta manera podría ser un sustrato inorgánico, en él se desarrollan procesos biológicos, los cuales modifican sus características físico - químicas. 
 
     p Los organismos presentes en el suelo, son de gran importancia sobre todo en las áreas destinadas a la producción agrícola, ya que en algunos casos pueden tener influencia positiva o negativa para el cultivo. Cuando se habla de influencia positiva se puede asociar a organismos que contribuyen a mejorar las condiciones físicas y químicas del suelo, además de servir como control biológico frente a organismo nocivos para la planta. 
 
@@ -202,7 +202,7 @@
         h4.bgr_2.p-3 Influencia de las arvenses en el desarrollo de los cultivos
         p.mb-0 Las arvenses son especies vegetales que llegan a invadir cultivos, por ende son consideradas malezas. Sin embargo, se debe monitorear los aspectos biológicos y ecológicos con el fin de ser consideradas como una problemática en el desarrollo de la producción, ambos aspectos logran diferencias por:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 2.
       span Aspectos ecológicos y aspectos biológicos
     
@@ -214,7 +214,7 @@
 
     separador 
 
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1  Manejo de Plagas y Enfermedades (MIP)
 
     .row.mb-5
@@ -276,7 +276,7 @@
 
         p De esta manera, en la siguiente secuencia se comparte de manera gráfica el proceso de eliminación manual de la parte infestada por plaga en el cultivo, donde se logra observar su paso a paso integrando el adecuado manejo de las plagas:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 3.
       span Control mecánico y eliminación manual
     
@@ -350,7 +350,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/42.svg' alt='Imagen de apoyo')
           .tarjeta.cfc_2.brp
-            .p-4
+            .p-4.p-lg-3
               h2.text-center Entomopatogeno
               p Microbios que causan enfermedades a los insectos, por ejemplo, hongos, bacterias, virus.
       .col-md-6.col-lg-3.mb-5.mb-lg-0(data-aos="flip-down")
@@ -383,7 +383,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/44.png', alt='Imagen de apoyo')  
  
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Tabla 1.
       span Ejemplo de plantas compañeras
     
@@ -432,7 +432,7 @@
         h4.bgr_2.p-3 e.	Pronóstico
         p El pronóstico es un elemento importante para el MIP, pues permite conocer la situación de las enfermedades y plagas antes de su aparición; por ende, es importante conocer la información meteorológica, etapa de crecimiento del cultivo en relación a la estación, monitoreo de la población de enfermedades y plagas, entre otras.
 
-        p Con el fin de recolectar información sobre plagas y enfermedades se utilizan las trampas. El pronóstico contribuye a reducir la cantidad de productos químicos para controlar las plagas y enfermedades, 
+        p Con el fin de recolectar información sobre plagas y enfermedades se utilizan las trampas. El pronóstico contribuye a reducir la cantidad de productos químicos para controlar las plagas y enfermedades.
  
       .col-lg-5.align-content-center
         figure.mb-5
@@ -479,12 +479,12 @@
 
     separador 
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Normatividad
 
     p.mb-5 Dentro de la normatividad en materia de control de plagas, Programa Integrado de Plagas MIP y limpieza y desinfección, encontramos:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Tabla 2.
       span Normatividad en materia de control de plagas
           

@@ -16,7 +16,7 @@
         ul.lista-ul--color.bgr_7.cfc_border.px-5.py-4
           li 
             i.fas.fa-check.bgr_8
-            | actividades de programación y preparación del proceso
+            | Actividades de programación y preparación del proceso
           li
             i.fas.fa-check.bgr_8
             | Preparación del suelo 
@@ -56,7 +56,7 @@
           li
             i.fas.fa-check.bgr_8
             | Manejo ambiental.
-        img(src='@/assets/curso/temas/tema3/2.svg', alt='Imagen de apoyo').pst_5.d-none.d-md-flex  
+        img(src='@/assets/curso/temas/tema3/2.svg', alt='Imagen de apoyo').pst_5.d-none.d-xl-flex  
     
     .row.mb-5
       .col-md-7.col-lg-8.mb-3
@@ -105,7 +105,7 @@
     
     separador 
 
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1. Buenas prácticas de convivencia
     
     .row.mb-5
@@ -125,21 +125,21 @@
               p Se debe capacitar constantemente al colaborador, con el fin de que se complementen conocimiento en el área productiva (conocimiento del proceso), en el área social (convivencia laboral, respeto, empatía y honestidad) y empresarial (comunicación asertiva, motivación y compromiso).
       .col-lg-4.mb-5.mb-lg-0(data-aos="fade-down")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/10.svg' alt='Imagen de apoyo')
+          img(src='@/assets/curso/temas/tema3/10-1.svg' alt='Imagen de apoyo')
           .tarjeta.bgr_5
             .p-4
               p La sana convivencia se refleja en las relaciones laborales, disminuyendo el nivel de estrés y fluyendo en las ideas, planificación del proceso, desarrollo de actividades, mejoramiento continuo de los procesos y acciones de mejora, que involucren un crecimiento y transformación de problemas en oportunidades de perfeccionamiento.
       .col-lg-4(data-aos="fade-up")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/10.svg' alt='Imagen de apoyo')
+          img(src='@/assets/curso/temas/tema3/10-2.svg' alt='Imagen de apoyo')
           .tarjeta.bgr_5
             .p-4
               p No se puede planificar un proceso, sin prever la mano obra, la calidad del personal para el desarrollo de las actividades, si se tienen diseñadas todos los protocolos, y procedimientos, pero si no se cuenta con el personal adecuada para su implementación, es muy probable que los resultados no sean los mejores, y se genere perdidas productivas, económicas y hasta afectaciones en el entorno.
     
     separador 
 
-    #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2. Acciones de mejora.
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.2. Acciones de mejora
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(

@@ -8,7 +8,7 @@
 
     p Todos los involucrados dentro del proceso agrícola, deben conocer claramente las labores a desarrollar y su importancia dentro del cultivo, con el fin de garantizar un buen manejo del proceso, con el fin de implementar las técnicas y estrategias adecuadas según la situación presentada.
 
-    p.mb-5 Así pues, un resumen de lo visto en el presente componente, podrá ser visualizado en el siguiente mapa conceptual.
+    p.mb-5 Así pues, un resumen de lo visto en el presente componente, podrá ser detallado en el siguiente mapa conceptual.
 
 
     .row.justify-content-center

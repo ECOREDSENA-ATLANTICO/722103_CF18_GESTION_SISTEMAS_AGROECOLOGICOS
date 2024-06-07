@@ -12,7 +12,7 @@
     div.justify-content-center.d-flex.mb-5
       p.bgr_10.p-4 El proceso de supervisión de las buenas prácticas de manejo cultural del agroecosistema está basado en:
     
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Tabla 3.
       span Prácticas de manejo cultural
     
@@ -50,7 +50,7 @@
 
     separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1. Registro de la información y trazabilidad de las prácticas de manejo cultural
     
 
@@ -118,7 +118,7 @@
 
     separador 
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2. Protocolos, procedimientos y normatividad
     
     .row.mb-5
