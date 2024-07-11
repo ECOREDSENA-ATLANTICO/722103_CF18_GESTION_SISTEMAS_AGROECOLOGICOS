@@ -85,7 +85,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/6.png', alt='Imagen de apoyo')
         .col-md-5.mb-4.mb-md-0.align-content-center
-          p.mb-0 Es la eliminación de huésped alternativos, (malezas), eliminación de plantas enfermas, sistema de riego y drenaje.
+          p.mb-0 Es la eliminación de huésped alternativo, (malezas), eliminación de plantas enfermas, sistema de riego y drenaje.
       .row(titulo="En la cosecha").justify-content-center
         .col-md-6.mb-3.align-content-center
           figure
@@ -111,7 +111,7 @@
     .row.mb-5
       .col-lg-6.mb-3
         p La clave del éxito para el desarrollo de cualquier proceso es la sana convivencia y la comunicación efectiva o asertiva entre las personas encargadas de desarrollar las diferentes actividades que involucra el proceso; no se puede presentar tan pasivo, dado que genera problemas para que los demás sigan las instrucciones, ni tan acelerados que generen molestia o discordia entre los ejecutores de las actividades.
-        p La comunicación asertiva en están importante a la hora de minimizar conflictos en el ámbito laboral, pues según como se trasmita un mensaje, así mismo se tendrá la respuesta mediante acciones ejecutadas de manera correcta, repercutiendo sin lugar a dudas en la productividad.
+        p La comunicación asertiva es tan importante a la hora de minimizar conflictos en el ámbito laboral, pues según como se trasmita un mensaje, así mismo se tendrá la respuesta mediante acciones ejecutadas de manera correcta, repercutiendo sin lugar a dudas en la productividad.
       .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/9.png', alt='Imagen de apoyo')
@@ -134,7 +134,7 @@
           img(src='@/assets/curso/temas/tema3/10-2.svg' alt='Imagen de apoyo')
           .tarjeta.bgr_5
             .p-4
-              p No se puede planificar un proceso, sin prever la mano obra, la calidad del personal para el desarrollo de las actividades, si se tienen diseñadas todos los protocolos, y procedimientos, pero si no se cuenta con el personal adecuada para su implementación, es muy probable que los resultados no sean los mejores, y se genere perdidas productivas, económicas y hasta afectaciones en el entorno.
+              p No se puede planificar un proceso, sin prever la mano obra, la calidad del personal para el desarrollo de las actividades, si se tienen diseñadas todos los protocolos, y procedimientos, pero si no se cuenta con el personal adecuado para su implementación, es muy probable que los resultados no sean los mejores, y se genere perdidas productivas, económicas y hasta afectaciones en el entorno.
     
     separador 
 
@@ -146,7 +146,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/11.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las acciones de mejora en un cultivo, consiste en jugar con las variables del proceso productivo, mediante la implementación de estrategias agronómicas que permitan avanzar en el desarrollo de las plantaciones, estableciendo medidas de manejo cultural, químico, etológico, biológico, legal, genético y natural. Es así, como se invita a detallar cuales pueden ser las acciones de mejora a implementar en un cultivo:  
+        p.mb-0 Las acciones de mejora en un cultivo, consiste en jugar con las variables del proceso productivo, mediante la implementación de estrategias agronómicas que permitan avanzar en el desarrollo de las plantaciones, estableciendo medidas de manejo cultural, químico, etológico, biológico, legal, genético y natural. Es así como se invita a detallar cuáles pueden ser las acciones de mejora a implementar en un cultivo:  
 
     .row.justify-content-center
       .col-lg-6

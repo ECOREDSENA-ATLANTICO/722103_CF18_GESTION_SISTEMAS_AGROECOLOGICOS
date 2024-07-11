@@ -174,7 +174,7 @@ export default {
     {
       termino: 'Manejo cultural',
       significado:
-        'estrategia mediante la cual se crea condiciones poco favorables para las plagas, de tal modo que se disminuya la reproducción y diseminación, por lo cual se buque que el crecimiento y desarrollo vigoroso del cultivo.',
+        'estrategia mediante la cual se crea condiciones poco favorables para las plagas, de tal modo que se disminuya la reproducción y diseminación, por lo tanto, se busca el crecimiento y el desarrollo vigoroso del cultivo.',
     },
     {
       termino: 'Población',

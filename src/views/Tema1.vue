@@ -7,7 +7,7 @@
         span 1
       h1 Monitoreo de las poblaciones asociadas al cultivo
     
-    p.mb-5 El monitoreo, permite instaurar cuando aparecen los problemas fitosanitarios y cómo evolucionan, convirtiéndose en una herramienta importante para el establecimiento de estrategias de manejo del cultivo, de tal modo que se repercuta poco en la calidad y rendimiento de este, además de generar un menor impacto al ambiente
+    p.mb-5 El monitoreo permite instaurar cuando aparecen los problemas fitosanitarios y cómo evolucionan, convirtiéndose en una herramienta importante para el establecimiento de estrategias de manejo del cultivo, de tal modo que se repercuta poco en la calidad y rendimiento de este, además de generar un menor impacto al ambiente
     
     .row.bgr.mb-5(data-aos="zoom-in")
       .col-lg-3.m-lg-5
@@ -295,7 +295,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bgr_7")
           .row(titulo="Temperatura")
             .col-md-6.mb-4.mb-md-0.align-content-center
-              p.mb-0 La temperatura tiene varios efectos sobre la vida de los organismos, por eso se debe tener en cuenta la época de establecimiento del cultivo, con el fin de evitar la temperatura optima de las enfermedades.
+              p.mb-0 La temperatura tiene varios efectos sobre la vida de los organismos, por eso se debe tener en cuenta la época de establecimiento del cultivo, con el fin de evitar la temperatura óptima de las enfermedades.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/36.png', alt='Imagen de apoyo')
@@ -315,7 +315,7 @@
                 img(src='@/assets/curso/temas/tema1/38.png', alt='Imagen de apoyo')
           .row(titulo="Trampa")
             .col-md-6.mb-4.mb-md-0.align-content-center
-              p.mb-0 Existen diferentes tipos de trampas, las cuales son implementadas para monitorear la aparición de insectos plagas y en algunos casos medida de control ya que pueden atrapar insectos plagas y evitar la trasmisión de enfermedades.
+              p.mb-0 Existen diferentes tipos de trampas, las cuales son implementadas para monitorear la aparición de insectos, plagas y en algunos casos medida de control ya que pueden atrapar insectos plagas y evitar la trasmisión de enfermedades.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/39.png', alt='Imagen de apoyo')        
@@ -345,7 +345,7 @@
           .tarjeta.cfc_2.brp
             .p-4
               h2.text-center Parásitos
-              p Se considera parasito al organismo que se hospeda dentro de otro cuerpo (endoparásito) o en la superficie (ectoparásito) de otro organismo y comen dentro del hospedero.
+              p Se considera parásito al organismo que se hospeda dentro de otro cuerpo (endoparásito) o en la superficie (ectoparásito) de otro organismo y comen dentro del hospedero.
       .col-md-6.col-lg-3.mb-5.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/42.svg' alt='Imagen de apoyo')
@@ -464,7 +464,7 @@
           .row
             .col-lg-6 
               h4 Feromona
-              p.mb-0 La mayoría de las orugas que comen hojas de cultivos son larvas de mariposas, las mariposas nocturnas hembra producen una sustancia que atrae a los machos. Por ende, al utilizar una feromona sintética los machos son atraídos y se pierde la oportunidad de copula con la hembra y así se disminuye la población de mariposas nocturna y a su vez las larvas dañinas para el cultivo.
+              p.mb-0 La mayoría de las orugas que comen hojas de cultivos son larvas de mariposas, las mariposas nocturnas hembra producen una sustancia que atrae a los machos. Por ende, al utilizar una feromona sintética los machos son atraídos y se pierde la oportunidad de cópula con la hembra y así se disminuye la población de mariposas nocturna y a su vez las larvas dañinas para el cultivo.
             .col-lg-6.align-content-center
               figure
                 img(src='@/assets/curso/temas/tema1/52.png', alt='Imagen de apoyo')
